@@ -218,11 +218,7 @@ footer{
     gap: 1%;
 }
 
-.tiktok:hover, .x:hover{
-    fill: #fcf5f5;
-}
-
-.youtube:hover, .instagram:hover{
+.instagram:hover{
     fill: #ff0000;
 }
 
