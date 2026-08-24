@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazzooka cart</title>
+    <link rel="icon" href="https://www.bazookaegy.com/public/uploads/resturantes/s_1718142990908701.png">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png" class="logo" alt="Bazooka Logo">
+        <div class="nav-links">
+            <button class="nav-button" onclick="window.location.href='index.html'">Home</button>
+            <button class="nav-button" onclick="window.open('menu.html', '_blank')">Menu</button>
+            <img src="assets/hotline.png" class="hotline" alt="Cart Icon">
+        </div>
+    </header>
+    <main>
+        <h1 class="cart-title">Your Cart</h1>
+        <div id="cart-container"></div>
+        <div class="total">
+            <h2>Total: $<span id="total-price">0.00</span></h2>
+        </div>
+        <button onclick="window.location.href='menu.html'">Back to Menu</button>
+        <button onclick="placeOrder()">Place Order</button>
+        <script src="cartpage.js"></script>
+    </main>
+</body>
+</html>

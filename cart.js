@@ -43,6 +43,12 @@ function addToCart(){
     ];
 
     const cart = products.filter(product => product.quantity > 0);
+
+    if (cart.length === 0) {
+        alert("Please select at least one item to add to the cart.");
+        return;
+    }
+    
     localStorage.setItem("cart", JSON.stringify(cart));
     window.location.href = "cart.html";
 }

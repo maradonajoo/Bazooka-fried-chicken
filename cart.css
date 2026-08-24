@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    background: linear-gradient(90deg,#414141,#252525,#171717);
+    height: 100%;
+    font-family: "Chess Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 14vh;
+    width: 100%;
+    background: linear-gradient(145deg,#3a3a3a,#252525,#171717);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6), inset 0 2px 2px rgba(255, 255, 255, 0.08), inset 0 -3px 4px rgba(0, 0, 0, 0.5);
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg,#9e9d4b,#d4d36a,#9e9d4b);
+    box-shadow: 0 0 10px rgba(158, 157, 75, 0.8);
+}
+
+.nav-links{
+    display: flex;
+    padding-right: 20%;
+    gap: 10%;
+    margin-left: auto; 
+    height: 80%;
+    width: 15%;
+}
+
+.logo{
+    padding-left: 5%;
+    height: 80%;
+    width: 20%;
+}
+
+.nav-button{
+    background: linear-gradient(90deg,#9e9d4b,#d4d36a,#9e9d4b);
+    color: rgb(0, 0, 0);
+    border: 1px solid #2a2a2a;
+    cursor: pointer;
+    border-radius: 30%;
+    flex: none;
+    height: 50%;
+    width: 50%;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button:active{
+    background: linear-gradient(90deg,#5f5e2f,#888743,#9e9d4b);
+}
+
+.cart-title{
+    color: #d4d36a;
+}
+
+.hotline{
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+main {
+    width: 80%;
+    margin: 5vh auto;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    background: linear-gradient(145deg, #3a3a3a,#252525,#171717);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6), inset 0 2px 2px rgba(255, 255, 255, 0.08);
+}
+
+.cart-item h2 {
+    color: #d4d36a;
+}
+
+.cart-item h3 {
+    font-size: 1.5rem;
+}
+
+.total {
+    text-align: right;
+    margin-top: 4vh;
+    padding: 2vh;
+    border-top: 2px solid #9e9d4b;
+}
+
+.total h2 {
+    color: #d4d36a;
+}
+
+button {
+    background: linear-gradient(90deg,#9e9d4b,#d4d36a,#9e9d4b);
+    border: 1px solid #2a2a2a;
+    border-radius: 15px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+}

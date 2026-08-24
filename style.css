@@ -28,7 +28,7 @@ header::after {
 
 .nav-links{
     display: flex;
-    padding-right: 30%;
+    padding-right: 20%;
     gap: 20%;
     margin-left: auto; 
     height: 80%;
