@@ -18,7 +18,7 @@ cart.forEach(product => {
     </div>
     <div>
         <h3 style="color: #d4d36a; font-weight: bold; font-size: 1.5rem;">
-             ${producttotal.toFixed(2)}
+             ${producttotal.toFixed(2)}$
         </h3>
     </div>
 
