@@ -62,8 +62,8 @@ header::after {
 }
 
 .hotline{
-    height: 50%;
-    width: 10%;
+    height: 100%;
+    width: 100%;
     align-self: center;
 }
 
@@ -260,7 +260,7 @@ header::after {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 10vh;
+    padding-bottom: 8vh;
 }
 
 .input4, .input5, .input6, .input7, .input8{
@@ -273,6 +273,7 @@ header::after {
     background-color: #252525;
     color: #ffffff;
     width: 30vh;
+    margin-bottom: 5vh;
 }
 
 .cart-button{
