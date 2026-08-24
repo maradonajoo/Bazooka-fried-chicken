@@ -18,67 +18,96 @@
         </div>
     </header>
     <form action="">
-        <div>
+        <div class="menu">
         <div class="card1">
-            <img src="assets/meal 1.jpeg" alt="chicken" class="img1">
+            <img src="assets/meal 1.png" alt="chicken" class="img1">
             <div class="text1">
-                <p>Offer 1 (50% off)</p>
-                <p class="p1">8 Fried Chicken pieces + 2 Chips + 2 bread Half price</p>
+                <p class="h1">Offer 1 (50% off)</p>
+                <p class="p1">8 Fried Chicken pieces + <br> 2 Chips + 2 bread</p>
                 <input type="number" placeholder="Quantity" min="0" max="5" class="input1">
             </div>
         </div>
         <div class="card2">
-            <img src="assets/meal 2.jpeg" alt="chicken" class="img2">
+            <img src="assets/meal 2.png" alt="chicken" class="img2">
             <div class="text2">
-                <p>Crazy Boom</p>
-                <p class="p2">3 sliced ​​chicken strips + lettuce + choice of sauce</p>
+                <p class="h2">Crazy Boom</p>
+                <p class="p2">3 sliced ​​chicken strips + lettuce <br> + choice of sauce</p>
                 <input type="number" placeholder="Quantity" min="0" max="10" class="input2">
             </div>
         </div>
         <div class="card3">
-            <img src="assets/meal 3.jpeg" alt="chicken" class="img3">
+            <img src="assets/meal 3.png" alt="chicken" class="img3">
             <div class="text3">
-                <p>Offer 2 (50% off)</p>
+                <p class="h3">Offer 2 (50% off)</p>
                 <p class="p3">7 pieces at half price for a limited time!</p>
                 <input type="number" placeholder="Quantity" min="0" max="5" class="input3">
             </div>
         </div>
         <div class="card4">
-            <img src="assets/meal4.jpg" alt="chicken" class="img4">
+            <img src="assets/meal4.png" alt="chicken" class="img4">
             <div class="text4">
-                <p>Offer 3 (60% off)</p>
+                <p class="h4">Offer 3 (60% off)</p>
                 <p class="p4">4 sandwiches (2 Chicken, 2 Beef)</p>
                 <input type="number" placeholder="Quantity" min="0" max="5" class="input4">
             </div>
         </div>
         <div class="card5">
-            <img src="assets/meal5.jpg" alt="chicken" class="img5">
+            <img src="assets/meal5.png" alt="chicken" class="img5">
             <div class="text5">
-                <p>Hormone Elsada (2 pieces)</p>
+                <p class="h5">Hormone Elsada (2 pieces)</p>
                 <p class="p5">2 pieces of chicken + rice + medium coleslaw + a piece of bread</p>
-                <input type="number" placeholder="Quantity" min="0" max="5" class="input5">
+                <input type="number" placeholder="Quantity" min="0" max="10" class="input5">
             </div>
         </div>
         <div class="card6">
-            <img src="assets/meal6.jpg" alt="chicken" class="img6">
+            <img src="assets/meal 6.png" alt="chicken" class="img6">
             <div class="text6">
-                <p>Super Crunchy Combo</p>
+                <p class="h6">Super Crunchy Combo</p>
                 <p class="p6">Sandwich + fries + drink</p>
-                <input type="number" placeholder="Quantity" min="0" max="5" class="input6">
+                <input type="number" placeholder="Quantity" min="0" max="10" class="input6">
             </div>
         </div>
         <div class="card7">
-            <img src="assets/meal7.jpeg" alt="chicken" class="img7">
+            <img src="assets/meal7.png" alt="chicken" class="img7">
             <div class="text7">
-                <p>Double Crunch</p>
-                <p class="p7">2 sandwiches + 2 fries + 2 drinks</p>
-                <input type="number" placeholder="Quantity" min="0" max="5" class="input7">
+                <p class="h7">Double Crunch</p>
+                <p class="p7">6 pieces of broast + 2 coleslaw + 2 bread + 2 medium basmati</p>
+                <input type="number" placeholder="Quantity" min="0" max="10" class="input7">
             </div>
         </div>
-        <div class="card8"></div>
-        <div class="card9"></div>
-        <div class="card10"></div>
-    </div>
+        <div class="card8">
+            <img src="assets/meal8.png" alt="chicken" class="img8">
+            <div class="text8">
+                <p class="h8">Aphachy Burger</p>
+                <p class="p8">Beef patty + lettuce + tomato + cheese + special sauce</p>
+                <input type="number" placeholder="Quantity" min="0" max="10" class="input8">
+            </div> 
+        </div>
+        <button type="button" class="cart-button" onclick="window.location.href='#checkout-button'">Finished?</button>
+        <button type="submit" class="checkout-button" onclick="addToCart()" id="checkout-button">Go to checkout</button>
     </form>
+    <footer class="footer">
+        <p class="rights">© 2026 Bazooka. All rights reserved.</p>
+            <a href="https://www.instagram.com/bazookaegy" target="_blank" rel="noopener noreferrer" aria-label="Bazooka on Instagram">
+                <svg class="instagram" width="24" height="24" viewBox="0 0 24 24" data-glyph="logo-instagram" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C9.3 22 8.93 22 7.87 21.93C6.8 21.9 6.1 21.73 5.44 21.46C4.81 21.23 4.24 20.86 3.67 20.33C3.14 19.76 2.77 19.2 2.54 
+                    18.56C2.27 17.89 2.11 17.19 2.07 16.13C2 15.06 2 14.7 2 12C2 9.3 2 8.93 2.07 7.87C2.1 6.8 2.27 6.1 2.54 5.44C2.77 4.81 3.14 4.24 3.67 
+                    3.67C4.24 3.14 4.8 2.77 5.44 2.54C6.11 2.27 6.81 2.11 7.87 2.07C8.94 2 9.3 2 12 2C14.7 2 15.07 2 16.13 2.07C17.2 2.1 17.9 2.27 18.56 
+                    2.54C19.19 2.77 19.76 3.14 20.33 3.67C20.86 4.24 21.23 4.8 21.46 5.44C21.73 6.11 21.89 6.81 21.93 7.87C22 8.94 22 9.3 22 12C22 14.7 22 
+                    15.07 21.93 16.13C21.9 17.2 21.73 17.9 21.46 18.56C21.23 19.19 20.86 19.76 20.33 20.33C19.76 20.86 19.2 21.23 18.56 21.46C17.89 21.73 
+                    17.19 21.89 16.13 21.93C15.06 22 14.7 22 12 22ZM12 20.2C14.67 20.2 15 20.2 16.03 20.13C17 20.1 17.53 19.93 17.9 19.8C18.37 19.6 18.7 
+                    19.4 19.03 19.03C19.4 18.7 19.6 18.36 19.8 17.9C19.93 17.53 20.1 17 20.13 16.03C20.2 15 20.2 14.66 20.2 12C20.2 9.33 20.2 9 20.13 
+                    7.97C20.1 7 19.93 6.47 19.8 6.1C19.6 5.63 19.4 5.3 19.03 4.97C18.7 4.6 18.36 4.4 17.9 4.2C17.53 4.07 17 3.9 16.03 3.87C15 3.8 14.66 3.8 
+                    12 3.8C9.33 3.8 9 3.8 7.97 3.87C7 3.9 6.47 4.07 6.1 4.2C5.63 4.4 5.3 4.6 4.97 4.97C4.6 5.3 4.4 5.64 4.2 6.1C4.07 6.47 3.9 7 3.87 7.97C3.8 
+                    9 3.8 9.34 3.8 12C3.8 14.67 3.8 15 3.87 16.03C3.9 17 4.07 17.53 4.2 17.9C4.4 18.37 4.6 18.7 4.97 19.03C5.3 19.4 5.64 19.6 6.1 19.8C6.47 
+                    19.93 7 20.1 7.97 20.13C9 20.2 9.34 20.2 12 20.2ZM12 17.13C9.17 17.13 6.87 14.83 6.87 12C6.87 9.17 9.17 6.87 12 6.87C14.83 6.87 17.13 9.17 
+                    17.13 12C17.13 14.83 14.83 17.13 12 17.13ZM12 15.33C13.83 15.33 15.33 13.83 15.33 12C15.33 10.17 13.83 8.67 12 8.67C10.17 8.67 8.67 10.17 
+                    8.67 12C8.67 13.83 10.17 15.33 12 15.33ZM17.33 7.87C16.66 7.87 16.13 7.34 16.13 6.67C16.13 6 16.66 5.47 17.33 5.47C18 5.47 18.53 6 18.53 
+                    .6.67C18.53 7.34 18 7.87 17.33 7.87Z">
+                </path>
+                </svg>
+            </a>
+        </span>
+    </footer>
 </body>
 </html>
