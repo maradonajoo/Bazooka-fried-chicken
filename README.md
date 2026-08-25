@@ -37,5 +37,10 @@ Username: Maradona
 ## Licence
 
 Made by maradonajoo on github under the GPL-3.0 Licence.
+
+-------------------------------------------------------
+## Acknowledgments 
+
+I thank Eng/ Osama Elzero for his patience and for teaching me the basics of web dev.
  
 
