@@ -1,5 +1,7 @@
 <h1 align='center'>= Bazzooka =</h1>
 
+<h2>Description</h2>
+
 <p align='center'>A website shows the menu of Egypt's most popular fried chicken restaurant!!!</p>
 
 <p align='center'>Made with basic HTML, CSS, and Java Script.</p>
@@ -11,6 +13,16 @@
 - Page of menu.
 - The menu is taken from the official website.
 - Page for showing the locations of the restaurant.
+
+## Help
+
+Contact me in slack
+Username: Maradona
+
+## Version History
+
+- 0.1
+- - Initial Release
 
 ## Licence
 
