@@ -11,11 +11,11 @@
 
 - Styling like Bazzooka colors for lovers (like me).
   
-  <img width="1885/2" height="911/2" alt="home" src="https://github.com/user-attachments/assets/f16758a1-e09a-4b28-830f-15919c9d51bc" />
+  <img width="942" height="455" alt="home" src="https://github.com/user-attachments/assets/f16758a1-e09a-4b28-830f-15919c9d51bc" />
   
 - Page of menu.
   
-  <img width="1882/2" height="892/2" alt="image" src="https://github.com/user-attachments/assets/c36b8e00-ab4d-439d-bb43-b1c2144e1efe" />
+  <img width="942" height="455" alt="image" src="https://github.com/user-attachments/assets/c36b8e00-ab4d-439d-bb43-b1c2144e1efe" />
   
 - The menu is taken from the official website.
 - Page for showing the locations of the restaurant.
