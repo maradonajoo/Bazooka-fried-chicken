@@ -9,7 +9,7 @@
 ------------------------------------------
 ## <p align='center'>Main and Features Resources</p>
 
-- Styling like Bazzooka colors for lovers (like me).
+- Styling like <a href="https://www.bazookaegy.com/en/resturant/bazooka-giza-faisal-almatbaea">Bazzooka</a> colors for lovers (like me).
   
   <img width="942" height="455" alt="home" src="https://github.com/user-attachments/assets/f16758a1-e09a-4b28-830f-15919c9d51bc" />
   
